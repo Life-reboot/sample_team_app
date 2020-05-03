@@ -4,6 +4,8 @@ Rails.application.routes.draw do
     get "/pages" => "pages#index"
 
     get "/tests" => "tests#index"
+    get "/cool" => "cool#index"
+    get "/jangs" => "jangs#index"
 
     get "/something" => "something#index"
     get "/fish" => "fish#index"
