@@ -1,5 +1,5 @@
 class Api::PagesController < ApplicationController
   def index
-    render json: { message: "Hello! my name is Trip" }
+    render json: { message: "Hello! my name is Di" }
   end
 end
