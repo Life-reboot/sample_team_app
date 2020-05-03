@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
   namespace :api do
+    get "/test" => "test#index"
     get "/pages" => "pages#index"
-<<<<<<< HEAD
     get "/cool" => "cool#index"
-=======
     get "/jangs" => "jangs#index"
->>>>>>> 75a6460177f046adfb919395a1cfbca30786a721
+    get "/fish" => "fish#index"
+    get "/jangs" => "jangs#index"
+    get "/derulo" => "derulo#index"
   end
 end
