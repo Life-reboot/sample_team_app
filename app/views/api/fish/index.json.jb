@@ -1,0 +1,7 @@
+@fish.map do |fish|
+  {
+    name: fish.name,
+    size: fish.size,
+    weight: fish.weight,
+  }
+end
